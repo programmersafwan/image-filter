@@ -1,0 +1,34 @@
+<script src="https://www.dukelearntoprogram.com//course1/common/js/image/SimpleImage.js">
+</script>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<h1>Image Filter</h1>
+
+<p align="center">
+<canvas id ="can">
+</canvas>
+</p>
+
+<p align="center">
+<input type = "file" multiple="false" accept="image/*" id="finput" onchange="upload()">
+</p>
+
+<p align="center">
+<input type = "button" value="Reset" onclick="reset()">
+</p>
+
+<p align="center">
+  
+<button class="button button1" onclick="filterGray()">Grayscale</button>
+
+<button class="button button2" onclick="filterRed()">Red</button>
+  
+<button class="button button3" onclick="filterGreen()">Green</button>
+  
+<button class="w3-button w3-white w3-border w3-round-large" onclick="filterWindow()">Window</button>
+  
+<span class="rainbow" onclick="filterRainbow()">Rainbow</span>
+  
+<!--<button class="w3-button w3-rainbow w3-border w3-round-large" onclick="filterRainbow()">Rainbow</></button>-->
+</p>

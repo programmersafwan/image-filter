@@ -1,0 +1,51 @@
+body {
+  background-color:  #ffffff;
+}
+
+canvas {
+  height: 200px;
+  border: 1px solid black;
+}
+
+input {
+  font-size: 14pt;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+.button1 {background-color: #e7e7e7; color: black;} /* Gray */
+
+.button2 {background-color: #f44336;} /* Red */ 
+
+.button3 {background-color: #00e600;} /* Green */ 
+
+.w3-btn {margin-bottom:10px;}
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  cursor: pointer;
+  font-size: 20px;
+ 
+}
